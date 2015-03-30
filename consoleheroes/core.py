@@ -16,6 +16,7 @@ class Player(object):
         self.name = name
         self.gold = 0
 
+
 class Enemy(object):
     """Represents an enemy."""
 
