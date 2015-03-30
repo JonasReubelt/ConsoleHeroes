@@ -11,4 +11,13 @@ __author__ = 'tamasgal'
 
 class Player(object):
     """Represents the main character."""
-    pass
+
+    def __init__(self, name="Unnamed Hero"):
+        self.name = name
+        self.gold = 0
+
+class Enemy(object):
+    """Represents an enemy."""
+
+    def __init__(self):
+        pass
