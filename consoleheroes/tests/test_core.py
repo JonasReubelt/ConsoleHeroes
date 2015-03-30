@@ -12,6 +12,7 @@ from unittest import TestCase
 
 from consoleheroes.core import Player
 
+
 class TestPlayer(TestCase):
     """Tests for the Player class"""
 
